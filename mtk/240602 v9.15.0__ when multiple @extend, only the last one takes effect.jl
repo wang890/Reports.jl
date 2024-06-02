@@ -102,7 +102,8 @@ end
 
     @extend i,v,p,n = onePort = OnePort()
 
-    # Switch between the two by keeping or  canceling the comment statement
+    # Switch between @Components and @extend
+    # by keeping or  canceling the comment statement
 
     # @components begin        
     #     conditionalHeatPort = ConditionalHeatPort(; useHeatPort=use_Heat_Port)
